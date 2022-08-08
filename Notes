@@ -1,0 +1,4 @@
+let countEl = document.getElementById('count-el'); //Adding somthing in between the parenthesis when we are calling it is called to pass in argument
+
+Document Object Model aka DOM
+- How you use JavaScript to modify a website
