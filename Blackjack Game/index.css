@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+body{
+  font-family: 'Mouse Memoirs', sans-serif;
+  background: url("Images/table.png");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+h1{
+  color: goldenrod;
+  font-size: 50px;
+}
+
+#message-el{
+  font-style: italic;
+}
+
+button{
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  border-radius: 20px;
+  padding: 5px;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 25px;
+  border: none;
+}
+
+@media (max-width: 400px) {
+  button{
+    margin: 2px 0;
+  }
+}
