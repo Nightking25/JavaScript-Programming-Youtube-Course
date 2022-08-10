@@ -161,8 +161,65 @@
 
 //Math.random() generates a random number between 0 and 1 ( not inclusive of 1)
 
-function rollDice() {
-  return Math.floor(Math.random() * 6) + 1;
-}
+// function rollDice() {
+//   return Math.floor(Math.random() * 6) + 1;
+// }
+//
+// console.log( rollDice() );
 
-console.log( rollDice() );
+// let hasCompletedCourse = true;
+// let givesCertificate = true;
+//
+// if(hasCompletedCourse === true && givesCertificate === true){
+//   generateCertificate();
+// }
+//
+// function generateCertificate() {
+//   console.log("Generating certificate.....");
+// }
+
+// let hasSolvedChalenge = false;
+// let hasHintsLeft = false;
+//
+// // Create an if statement that checks that both variable are false.
+// // if so, run the showSolution() function
+//
+// if (!hasSolvedChalenge && !hasHintsLeft ) {
+//   showSolution();
+// }
+// function showSolution() {
+//   console.log("Showing the solution.....");
+// }
+
+// Objects -store data in-depth - composite / complex data types
+// key-value pairs
+
+// let course = {
+//   title: "Learn CSS Grid for free",
+//   lessons: 16,
+//   creator: "Nirdesh Shrestha",
+//   length: 63,
+//   level: 2,
+//   isFree: true,
+//   tags: ["html", "css"]
+// }
+//
+// console.log(course.title);
+
+// Create an object that represents an airbnb castle listing.
+// It should contain at least one boolean, one string, one number, and one array.
+// log out at least tow of the keys using the dot notation
+
+// let airbnb = {
+//   title: "Live like a King in my Castle",
+//   price: 190,
+//   type: "castle",
+//   location: "Galway",
+//   rooms: ["Three Bedroom", "One Washroom", "One Livingroom"],
+//   isAvailable: true
+// }
+//
+// console.log(airbnb.price, airbnb.rooms);
+
+
+// Methods are function that are attached to objects
