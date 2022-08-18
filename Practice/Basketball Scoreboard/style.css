@@ -1,14 +1,88 @@
+@font-face {
+  src: url('CursedTimerUlil-Aznm.ttf');
+  font-family: Cursed Timer ULiL;
+}
+
 * {
   margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
   box-sizing: border-box;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+body{
+  background: #1B244A;
+
+}
+.container {
+  display: flex;
+  padding: 20% 10%;
+  /* align-content: ; */
+  justify-content: space-around;
+}
+
+h3{
+  font-family: Verdana;
+  font-style: Bold;
+  font-size: 40px;
+  line-height: 36px;
+  align-content: center;
+  color: #EEEEEE;
+}
+
+#home-score-display, #guest-score-display{
+  display: grid;
+  grid-gap: 10px;
+  grid-template:'name name name'
+  'score score score'
+  'button1 button2 button3';
+  font-family: Cursed Timer ULiL;
+  justify-items: center;
+}
+#home-score, #guest-score{
+  height: 120px;
+  width: 155px;
+  font-size: 90px;
+  color: #F94F6D;
+  background: #080001;
+  border-radius: 5px;
+  grid-area: score;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.name{
+  text-align: center;
+  grid-area: name;
+}
+
+.plus {
+  color: #9AABD8;
+  font-family: inherit;
+  background-color: transparent;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+}
+#home-plus-one{
+  grid-area: button1;
+}
+#home-plus-two{
+  grid-area: button2;
+}
+#home-plus-three{
+  grid-area: button3;
+}
+
+#guest-plus-one{
+  grid-area: button1;
+}
+#guest-plus-two{
+  grid-area: button2;
+}
+#guest-plus-three{
+  grid-area: button3;
 }
