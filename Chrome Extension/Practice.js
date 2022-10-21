@@ -45,11 +45,11 @@ function buy() {
 const recipient = "James";
 const sender = "King";
 const email = `
-    Hey ${recipient}!
+Hey ${recipient}!
 
-    How is it going?
+How is it going?
 
-    Cheers ${sender}
+Cheers ${sender}
 
 `;
 console.log(email);
@@ -75,5 +75,41 @@ console.log(email);
 // undefined --> how JavaScript signalizes emptiness
 // NaN
 
-let trueOrFalse = Boolean(-1);
-console.log('1:'+ trueOrFalse);
+// let trueOrFalse = Boolean(-1);
+// console.log('1:'+ trueOrFalse);
+//
+// let myLeads = `["www.google.com"]`;
+// // 1. Turn the myLeads string into an array
+// myLeads = JSON.parse(myLeads);
+// // 2. Push a new vaue to the array
+// myLeads.push("www.amazon.com");
+// // 3. Turn the array into a string again
+// myLeads = JSON.stringify(myLeads);
+// // 4. Console.log the string using typeof to verify that it's a string
+// console.log(typeof myLeads);
+
+const welcomeEl = document.getElementById('welcome-el')
+// Parameters
+function greetUser(greeting, name, emoji) {
+  welcomeEl.textContent = `${greeting}, ${name} ${emoji}`//This is called template literals
+}
+// arguments
+greetUser("Good Morning", "Kelly", "🚪");
+
+// Create a function, add(), that adds two numbers together and returns the sum
+console.log(add(9, -9))
+console.log(add(9, 102))
+
+function add(num1, num2){
+  return num1 + num2;
+}
+
+// Create a function, getFirst(arr), that returns the first item in the array
+function getFirst(arr) {
+  return arr[0];
+}
+let array1 = ["hello",2,4,5]
+console.log("The first item is : " + getFirst(array1));
+
+
+// Call it with an array as an argument to verify that it works
