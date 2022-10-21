@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
   background: linear-gradient(white, gray);
@@ -33,4 +33,23 @@ button {
   color: white;
   font-family: inherit;
   font-size: 20px;
+}
+
+#sorting-fruits{
+  padding: 40px;
+  background: whitesmoke;
+  text-align: center;
+}
+
+#apple-shelf {
+  background: lightcoral;
+  border-radius: 10px;
+  height: 30px;
+  margin: 10px 0;
+}
+
+#orange-shelf{
+  background: lightsalmon;
+  border-radius: 10px;
+  height: 30px
 }
