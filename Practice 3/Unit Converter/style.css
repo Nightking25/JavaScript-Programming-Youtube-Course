@@ -39,6 +39,12 @@ body{
   text-align: center;
 }
 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 #convert-btn{
   margin-bottom: 35px;
   background: #FFFFFF;
